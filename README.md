@@ -22,7 +22,7 @@ else:
 ```
 
 ## Introduction
-This algorithm is much faster for positive integers less than 10^16 than the classical ones such as: 
+This algorithm is much faster for positive integers less than 10<sup>16</sup> than the classical ones such as: 
 ```python
 def isPrime(N):
     if N%2==0 and N-2:
