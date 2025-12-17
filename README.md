@@ -1,5 +1,9 @@
+#Prime number calculator
+
+## Installation
 Please copy the file 'prime_number.py' and put it in 'Python\Lib\site-packages'.
 
+## Examples
 ```python
 number=int(input())
 
