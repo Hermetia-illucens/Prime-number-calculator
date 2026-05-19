@@ -1,18 +1,28 @@
 # Prime number calculator
 
 ## Installation
-Please copy the file 'prime_number.py' and put it in 'Python\Lib\site-packages'.
+Using **uv**: 
+```bash
+uv add prime-number-calculator
+```
+Using **pip**: 
+```bash
+pip install prime-number-calculator
+```
 
 ## Examples
 ```python
 number=int(input())
 
+# Checks if the number is a prime number
 from prime_number import prime_number
 print(prime_number(number))
 
+# Returns the smallest prime factor of the number
 from prime_number import submultiple
 print(submultiple(number))
 
+# Decomposes the number into a product of prime factors
 from prime_number import prime_factorization
 print(prime_factorization(number))
 ```
